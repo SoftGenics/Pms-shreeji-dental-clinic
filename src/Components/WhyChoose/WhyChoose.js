@@ -43,7 +43,7 @@ function WhyChoose() {
       <Card.Title >Your Comfort, Our Priority</Card.Title>
       <Card.Text>
         Enjoy a relaxing clinic evironment,
-        <br></br>welcoming team and soothing amenities.
+        <br></br>Helpful team and soothing amenities.
         <br></br>Plus, we offer advanced sedation options
         <br></br>to ensure your comfort and help those
         <br></br>with anxiety

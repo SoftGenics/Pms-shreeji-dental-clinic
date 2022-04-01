@@ -32,3 +32,8 @@
 .why-choose .card i:hover{
     color: #fff;
 }
+@media (max-height: 653px) {
+    .why-choose .card {
+        height: 60vh;
+    }
+}

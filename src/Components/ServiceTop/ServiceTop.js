@@ -8,10 +8,10 @@ const ServiceTop = () => {
         <Container className='servicetop'>
         <Row>
             <Col lg={3} className="servicetop-wrapper">
-            <Link to="/General-denstistry"><Card >
+            <Link to="/General-dentistry"><Card >
             <i className="fas fa-tooth"></i>
                 <Card.Body>
-                    <Card.Title>Gernal Dentistry</Card.Title>
+                    <Card.Title>General Dentistry</Card.Title>
                 </Card.Body>
                 </Card>
                 </Link>
@@ -20,7 +20,7 @@ const ServiceTop = () => {
             <Link to="/Cosmetics-dentistry"><Card >
             <i className="fas fa-teeth"></i>
                 <Card.Body>
-                    <Card.Title>Cosmetic denstistry</Card.Title>
+                    <Card.Title>Cosmetic dentistry</Card.Title>
 
                 </Card.Body>
                 </Card>
@@ -30,7 +30,7 @@ const ServiceTop = () => {
             <Link to="/Surgical"><Card >
             <i className="fas fa-teeth-open"></i>
                 <Card.Body>
-                 <Card.Title>Surgical denstistry</Card.Title>
+                 <Card.Title>Surgical dentistry</Card.Title>
 
                 </Card.Body>
                 </Card>

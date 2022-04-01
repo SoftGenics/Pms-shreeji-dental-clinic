@@ -12,7 +12,7 @@ function OfficeInfo() {
             <Row>
                  <Col md={6}>
                      <Container >
-                        <h2>OFFICE INFORMATION</h2>
+                        <h2>CLINIC INFORMATION</h2>
                         <div className=' mt-5 h5'>
                         <i className="fas fa-phone-alt"></i>&nbsp;Phone:&nbsp;<a href='tel: +917800230430'style={{color:'rgb(243, 40, 13)', textDecoration:'none'}} > +91 7800230430</a><br></br>
                         </div>

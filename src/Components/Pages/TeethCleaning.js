@@ -9,7 +9,7 @@ const TeethCleaning = () => {
     <>
     <div className='general-container container-fluid'  style={{background:'url(images/cleaning.jpg) center center/cover no-repeat'}}>
     <h1>CLEANING & EXAMS</h1>
-    <p>Tooth whitening or tooth bleaching is the process of lightening the colour of human teeth. Whitening is often desirable when teeth become yellowed over time for a number of reasons, and can be achieved by changing the intrinsic or extrinsic colour of the tooth enamel.The chemical degradation of the chromogens within or on the tooth is termed as bleaching.</p>
+    <p>Tooth whitening or tooth bleaching is the process of lightening the colour of human teeth.</p>
     <Link to='/Book-Online'><button className='btn btn-primary'>BOOK ONLINE</button></Link>
     <div className='overlay'>
         </div>  

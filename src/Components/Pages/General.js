@@ -9,8 +9,7 @@ const General = () => {
       <>
     <div className='general-container container-fluid'>
     <h1>GENERAL DENTISTRY</h1>
-    <p>General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. Many oral diseases and abnormalities can indicate other diseases. A general dentist may refer patients to their physician or a specialist for further evaluation, or vice versa for treatment.
-</p>
+    <p>General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth.</p>
 <Link to='/Book-Online'><button className='btn btn-primary'>BOOK ONLINE</button></Link>
     <div className='overlay'>
         </div> 

@@ -8,7 +8,7 @@ const KidsDentistry = () => {
     <>
     <div className='general-container container-fluid' style={{background:'url(images/pic.jpg) center center/cover no-repeat'}}>
     <h1>KIDS DENTISTRY</h1>
-<p><b>Dentistry for babies </b>is a branch of Pediatric dentistry related to the dental treatment provided to children from birth to around 36 months of age, aiming to maintain or re-establish a good oral health status, at the same time as it creates a positive attitude of parents and children about Dentistry.</p>
+<p><b>Dentistry for babies </b>is a branch of Pediatric dentistry related to the dental treatment provided to children from birth to around 36 months of age</p>
 <Link to='/Book-Online'><button className='btn btn-primary'>BOOK ONLINE</button></Link>
     <div className='overlay'>
         </div> 

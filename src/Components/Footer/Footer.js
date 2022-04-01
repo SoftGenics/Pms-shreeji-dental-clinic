@@ -15,10 +15,10 @@ const Footer = () => {
     <div className="col-lg-3 col-xs-12 links">
       <h3 className="mt-lg-0 mt-sm-3">Our Services</h3>
         <ul className="m-0 p-0">
-          <li>- <Link to="/General-denstistry">General Denstistry</Link></li>
-          <li>- <Link to="/Cosmetics-dentistry">Cosmetics Denstistry</Link></li>
-          <li>- <Link to="/Surgical">Surgica Denstistry</Link></li>
-          <li>- <Link to="/Kids-dentistry">Kids Denstistry</Link></li>
+          <li>- <Link to="/General-denstistry">General Dentistry</Link></li>
+          <li>- <Link to="/Cosmetics-dentistry">Cosmetics Dentistry</Link></li>
+          <li>- <Link to="/Surgical">Surgica Dentistry</Link></li>
+          <li>- <Link to="/Kids-dentistry">Kids Dentistry</Link></li>
           <li>- <Link to="/Book-Online">Book Online</Link></li>
         </ul>
     </div>

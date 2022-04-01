@@ -8,7 +8,7 @@ const Toothcoloredfillingsforkids = () => {
   return (
     <>
     <div className='general-container container-fluid'  style={{background:'url(images/pic.jpg) center center/cover no-repeat'}}>
-    <h1>Tooth colored fillings for kids</h1>
+    <h1>Tooth colored fillings</h1>
     <p>With tooth colored fillings for kids, commonly known as composite fillings, modern dentistry has made it feasible to treat cavities discreetly.</p>
     <Link to='/Book-Online'><button className='btn btn-primary'>BOOK ONLINE</button></Link>
     <div className='overlay'>

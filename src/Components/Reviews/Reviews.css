@@ -1,0 +1,127 @@
+/*-------Doctors Review Testimonial--------*/
+.testimonial-container {
+    background-image:  radial-gradient(at bottom right,rgb(87, 180, 252) 36%,rgba(41,154,239,1) 71%, #fff 11%);
+    line-height: 4rem;
+    margin-top: 4rem;
+    overflow: hidden;
+
+  }
+  .testimonial-container h1 {
+    color: #299AEF;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .rating-container .carousel {
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+   
+    
+  }
+  .testimonial-container > h2 {
+      text-align: center;
+      font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+      font-size: 35px;
+  }
+  .testimonial-container-card{
+    border-radius: 30px;
+    width: 28rem;
+    opacity: 0.9;
+    margin-left: 34%;
+    margin-bottom: 4rem;
+    border: 1px solid black;
+    
+  }
+ .testimonial-container-card .fa-quote-right {
+      float: right !important;
+
+      font-size: 28px;
+  }
+  .testimonial-container-card .fa-quote-left {
+    float: left !important;
+    font-size: 28px;
+}
+  .testimonial-container-img {
+    display: inline-block;
+    border: 4px solid #26b5f8;
+    border-radius: 50% !important;
+    box-shadow: 0 0 4px 4px #26b5f8!important; 
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    width: 174px;
+    height: 27vh;
+    margin-top: 20px;
+    width: 174px !important;
+    margin-left: 34%;
+  }
+  .testimonial-container-title {
+    font-size: 25px !important;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+    margin-top: 20px;
+  }
+  .testimonial-container-description {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    opacity: 0.9;
+    line-height: 20px;
+    margin-bottom: 40px;
+    padding: 2rem;
+  }
+  .testimonial-container .fa-quote-left {
+    color: rgb(94, 93, 93);
+  }
+  .testimonial-container .fa-quote-right {
+    color: rgb(94, 93, 93);
+  }
+  .testimonial-container  .rating-container{
+    color: rgba(247, 243, 1, 0.884) !important;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px black;
+  }
+  .testimonial-container .carousel-indicators {
+    visibility: hidden !important;
+    display: none !important;
+  }
+
+  @media screen and (max-width: 960px) {
+    .testimonial-container-card {
+      margin-left:  24%;    
+    }
+  }
+  .carousel-indicators li {
+    border-top: unset;
+    width: 10px;
+    border-bottom: unset;
+    border: 1px solid transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: 10px;
+    background-color: rgba(169, 29, 42, 0.4);
+    height: 10px;
+    width: 20px;}                                                  
+                                                                   
+    .carousel-indicators .active {
+ visibility: hidden;
+display: none;    
+}
+
+ 
+  
+  @media screen and (max-width: 768px) {
+    .testimonial-container-card {
+      margin-left: 0% !important;
+      width: 100%;
+      height: 80vh;
+    }
+    .testimonial-container-img {
+      height: 22vh;
+    }
+  }
+
+  

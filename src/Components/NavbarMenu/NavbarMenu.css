@@ -1,0 +1,127 @@
+.Navbar-menu{
+    width: 100%;
+    top: 0;
+    margin-top: 3rem;
+    padding-right: 1rem;
+    
+}
+.Navbar-menu .navbar-nav .nav-link {
+    color:#299AEF !important; 
+    transition: .2s ease-in;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px #000000;
+    margin-right: 0.2;
+   letter-spacing: 1px;
+  
+  }
+  .Navbar-menu .navbar-nav .nav-link .fa-home {
+    font-size: 20px;
+    text-shadow: none !important;
+  }
+  .Navbar-menu .navbar-nav .nav-link:hover {
+
+  color: #FF510A !important;
+
+  }
+  .Navbar-menu .dropdown-menu {
+      background-color: #299AEF !important;
+      border-top: 2px solid #FF510A ;
+      width: 15rem;
+      margin-top: 1rem !important;
+  }
+  
+
+  .Navbar-menu .dropdown-menu  .dropdown-item {
+    color: white !important;
+    text-decoration: none;
+    background: none;
+    line-height: 30px;
+  
+  }
+  .Navbar-menu .dropdown-menu  .dropdown-item:hover {
+    color: #FF510A !important;
+    font-weight: 700;
+    text-decoration: underline 1px solid #FF510A;
+  }
+  
+  .Navbar-menu .dropdown-menu  .dropdown-item i {
+    float:  right;
+  }
+  .Navbar-menu .navbar-toggler {
+    border:  none !important;
+  }
+  .Navbar-menu .navbar-toggler:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+.navbar-logo img {
+    width: 350px;
+    height: 140px;
+    transition: all 0.4s ease 0s;
+  }
+   .navbar-logo-size img {
+    width: 180px;
+    height: 80px;
+    transition: all 0.4s ease 0s;
+  }
+  .Navbar-menu .btn-primary {
+    background-color:  #f8f9fa!important; 
+    border-width: 0px!important; 
+    margin-left: 1rem !important;
+    padding: 8px 20px !important;
+    border: 1px solid rgb(63, 162, 243) !important;
+    box-shadow: 5px 5px 0px 0px rgb(41 154 239 / 32%);
+    
+  }
+  .Navbar-menu .btn-primary :hover {
+      transform: scale(0.9);
+      transition: all .3s ease 0s;
+  }
+ 
+  @media (max-width: 992px) {
+     .Navbar-menu .navbar-collapse {
+            position: fixed;
+            top: 155px;
+            left: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            width: 75%;
+            height: 100%;
+            background-color: rgb(255, 253, 253);
+
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+    
+         .Navbar-menu .navbar-collapse.collapsing {
+            left: -75%;
+            transition: height 0s ease 0s;
+        }
+    
+         .Navbar-menu .navbar-collapse.show {
+            left: 0;
+            transition: left 300ms ease-in-out;
+        }
+         .Navbar-menu .nav-link  {
+            border-bottom: 1px solid rgb(20, 11, 11);
+            padding-bottom: 1rem;
+            padding-top: 0.5rem;
+        }
+        .bookonline-btn {
+            margin-top: 1rem;
+        }
+        .navbar-logo img {
+          width: 250px;
+          height: 80px;
+        }
+        .Navbar-menu .btn-primary {
+          margin-top: 1rem;
+        }
+    }
+    @media (max-width: 280px)  {
+      .navbar-logo img {
+        width: 100px;
+        height: 70px;
+      }
+    }

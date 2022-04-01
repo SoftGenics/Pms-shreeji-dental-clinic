@@ -1,0 +1,179 @@
+.general-container {
+    background: url('/public/images/general1.jpg') center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-right-radius: 100% 20%;
+    border-bottom-left-radius: 100% 20%;
+}
+.general-container .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+  background-color: rgb(5, 149, 206);
+  opacity: 0.7;
+  border-bottom-right-radius: 100% 20%;
+  border-bottom-left-radius: 100% 20%;
+
+}
+.general-container h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+    opacity: 10;
+    z-index: 1;
+    text-shadow: 0px 0px 3px rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.general-container p {
+    text-shadow: 0px 0px 1px rgb(14, 13, 13);
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    opacity: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    font-size: 1rem;
+
+}
+.general-container button {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    z-index: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: rgba(41,154,239,1);
+}
+.general-container button:hover {
+   background-color: aliceblue;
+   color: rgba(41,154,239,1);
+   font-weight: 600;
+   border: 2px solid rgba(41,154,239,1);
+}
+.general-content {
+    margin-top: 5rem;
+}
+.general-content h2 {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.general-content h2::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 4px;
+    bottom: -12px;
+    left: 0;
+    border-bottom: 4px solid  rgba(41,154,239,1);;
+}
+.general-content h3 {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+.general-content h3::after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 4px;
+    bottom: -12px;
+    left: 27.5%;
+    border-bottom: 4px solid  rgba(41,154,239,1);;
+}
+
+.general-content .col-md-4 {
+    padding: 1rem !important;
+}
+.general-content .card {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+.general-content .card img {
+    height: 40vh;
+}
+.general-content .card:hover{
+    transition: all 0.4s ease 0s;
+    margin-top: -0.4rem;
+}
+.general-content .card .card-title {
+    text-transform: uppercase;
+}
+.general-content .accordion-button {
+    color: rgba(41,154,239,1) !important;
+    font-weight: 600;
+}
+.general-content .accordion-button h2::after{
+    border-bottom: none !important;
+}
+.general-content .accordion-button:focus {
+    box-shadow: none !important;
+}
+.side-table tbody, td, tfoot, th, thead, tr {
+    padding: 1rem !important;
+    text-decoration: none !important;
+}
+
+.side-table .fa-arrow-circle-right {
+    float: right;
+    color: rgba(41,154,239,1);
+}
+.side-table .fa-arrow-circle-right:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.2);
+}
+.side-table .active {
+    color: rgba(41,154,239,1) !important;
+    font-weight: 600; 
+     
+}
+.side-table .normal a{
+    color: rgb(41, 41, 41) ;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.side-table .normal a:hover {
+    color: rgba(41,154,239,1) !important;
+}
+.side-table .active a {
+    text-decoration: none !important;
+}
+@media (max-width: 768px){
+    .general-container h1 {
+        top: 35%;
+        font-size: 2rem;
+        display: inline;
+    } 
+    .general-container p {
+        text-align: center;
+    }
+    .general-container button{
+        top: 93%;
+    }
+
+}
+@media (max-width: 280px) {
+    .general-container h1 {
+        font-size: 1rem;
+    }
+    .general-container p {
+        font-size: 0.8rem;
+    }
+    
+}

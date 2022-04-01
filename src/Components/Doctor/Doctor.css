@@ -1,0 +1,49 @@
+@import url('http://fonts.cdnfonts.com/css/virgo-01');  
+.doctor h1 {
+    text-align: center;
+    color: rgba(41,154,239,1);
+    font-weight: 700;
+    text-shadow: 0px 0px 2px black;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.doctor-conatiner {
+    margin-top: 4rem;
+    background: linear-gradient(156deg, rgba(255,255,255,1) 50%, rgba(41,154,239,1) 51%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.doctor-conatiner .card {
+    width: 60rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.doctor-conatiner .doctor-wrapper img {
+    height: 36vh;
+    margin-top: -4rem;
+    margin-left: -4rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.doctor-conatiner .doctor-wrapper img:hover{
+    transform: scale(1.01);
+    transition: all 0.5s ease 0s;
+}
+.doctor-conatiner .doctor-wrapper .card-title {
+    margin-top: 2rem;
+    font-size: 30px;
+    color: rgb(224, 54, 173);
+    font-family: 'Virgo 01', sans-serif;
+                                                
+
+}
+
+@media (max-width: 992px)  {
+    .doctor-conatiner .doctor-wrapper img  {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}

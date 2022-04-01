@@ -1,0 +1,51 @@
+.footer{
+  background-color: rgb(228, 244, 255);
+  opacity: 0.9;
+  color:  rgb(59, 59, 59)!important;
+  margin-bottom: -1.5rem;
+  
+
+}
+  .footer .links ul{
+    list-style-type: none;
+
+    }
+    li a{
+      color:rgb(32, 31, 31);
+      transition: color .2s;
+    }
+      li a:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+  
+  .about-company p{
+    color:rgb(59, 59, 59);
+  }
+  .about-company .fa-facebook-square {
+   font-size: 25px;
+   color: rgb(62, 106, 252);
+  }
+  .about-company .fa-linkedin {
+    font-size: 25px;
+    color: rgb(47, 142, 206);
+   }
+   .about-company .fa-instagram-square {
+    font-size: 25px;
+    color: rgb(211, 26, 211);
+   }
+   .about-company i a{
+      color:rgb(104, 221, 49);
+      transition: color .2s;
+   }
+      .about-company i a:hover{
+          color:#4180CB
+    }
+ 
+  .location i{
+  font-size: 18px;
+  }
+  .copyright p{
+    color: rgb(59, 59, 59);;
+      border-top:1px solid rgba(255,255,255,.1);
+}

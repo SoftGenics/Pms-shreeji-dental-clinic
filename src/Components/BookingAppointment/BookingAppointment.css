@@ -1,0 +1,177 @@
+/*---------------------------------------
+      APPOINTMENT             
+  -----------------------------------------*/
+
+  .appointment {
+  
+    background-color: #ffffff;
+    background-image: url('/public/images//formbg.jpg');
+    padding: 4rem;
+    overflow: hidden;
+    
+  }
+  .form-box {
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+  .form-box h1 {
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+    text-shadow: 0px 0px 4px black;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  .form-bg-col {
+    background-image: radial-gradient(ellipse farthest-corner at -10% 220%, #3c84cc 0%, #315dc2 80%, #4e95d3 80%);
+
+  }
+  .-box {
+    padding: 1rem;
+  }
+  .side-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .side-text h1{
+    margin-top: 3rem;
+    color: #f0f1f1;
+    line-height: 80px;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-shadow: -5px 0px 4px rgb(83, 83, 83);
+  }
+  .side-text img {
+    width: 380px;
+    height: 380px;
+    text-align: center;
+
+  } 
+  .appointment  label {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+    margin-top: 15px;
+  }
+
+  .appointment > .form-control {
+    background: #f9f9f9;
+    border: none;
+    box-shadow: none;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+    font-weight: normal;
+    transition: all ease-in-out 0.4s;
+    margin-bottom: 5px;
+
+  }
+  .appointment > .form-control:focus {
+    box-shadow: none;
+
+  }
+  .appointment input {
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid #03a8f45e;
+  font-size: 1rem;
+  color: #299AEF;
+  margin-top: 2rem;
+
+  }
+  .appointment .form-select {
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid #03a8f45e;
+    font-size: 1rem;
+    color: #299AEF;
+    margin-top: 2rem;
+
+  }
+  .appointment textarea {
+    border: none;
+    outline: 0;
+    border-bottom: 3px solid #03a8f45e;
+    font-size: 1rem;
+    color: #299AEF;
+    margin-top: 2rem;
+  }
+  .appointment textarea:focus,
+  .appointment select:focus,
+  .appointment input[type="text"]:focus,
+  .appointment input[type="date"]:focus,
+  .appointment input[type="month"]:focus,
+  .appointment input[type="time"]:focus,
+  .appointment input[type="week"]:focus,
+  .appointment input[type="email"]:focus,
+  .appointment input[type="tel"]:focus,
+  .appointment  .uneditable-input:focus {   
+  box-shadow:  0 1px 0px #59bcfd!important; 
+  outline: none;
+  transition: all 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity:0.8;
+ 
+}
+  .appointment input,
+  .appointment select {
+    height: 45px;
+  }
+ [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+ 
+
+  .appointment button#cf-submit {
+    background:   #299AEF !important; 
+    color: #ffffff;
+    font-weight: 600;
+    height: 55px;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0px 2px 3px rgb(207, 205, 205);
+   
+  }
+
+  .appointment button#cf-submit:hover {
+    transform: scale(0.9);
+    transition: all 0.4s ease 0s;
+  }
+
+  .appointment .upload-btn {
+    color: #f8fcff;
+  }
+.appointment input[type="radio"]
+{
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 4px;
+ padding-bottom: 1rem;
+  border: #299AEF 1px solid;
+}
+.appointment input[type="radio"]:checked{
+  background-color: #299AEF!important; 
+  border: none;
+}
+.appointment .bi-folder2-open {
+  background-color: rgb(235, 125, 51);
+  padding: 2px;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+@media (max-width: 992px) {
+  .side-text h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .form-box h1 {
+    font-size: 1.8rem;
+  }
+}

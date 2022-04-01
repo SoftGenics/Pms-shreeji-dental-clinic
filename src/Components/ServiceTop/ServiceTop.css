@@ -1,0 +1,26 @@
+.servicetop {
+    padding: 1px;
+}
+.servicetop .servicetop-wrapper {
+    padding: 2rem;
+    margin-top: -7rem;
+}
+.servicetop-wrapper .card {
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.servicetop-wrapper .card:hover {
+ margin-top: -1rem;
+}
+.servicetop-wrapper .card i {
+    text-align: center;
+    font-size: 30px;
+    color: #299AEF;
+}
+.servicetop .card .card-title {
+    text-transform: uppercase;
+}
+.servicetop a {
+    text-decoration: none;
+}

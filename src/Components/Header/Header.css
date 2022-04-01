@@ -1,0 +1,106 @@
+.Header-nav {
+    color: black;
+
+    background-color: #299AEF !important; ;
+   
+}
+.Header-nav .offer-text {
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    animation: change-color 2s infinite;
+   
+}
+.Header-nav .marque-text {
+    max-width: 40px !important;
+    text-align: left;
+}
+@keyframes change-color {
+ 25% {
+ color: #FF510A ;
+ }
+ 50% {
+    color: #299AEF ;
+    }
+    100% {
+        color: #f0f4f7  ;
+        }
+  }
+.Header-nav img {
+    width: 70px;
+    height: 20px;
+    padding: auto;
+}
+.Header-nav .marque-text {
+    max-width: 300px !important;
+    text-align: left;
+}
+
+.Header-nav .navbar-nav .nav-link .fa-whatsapp{
+ background-color: green;
+ color: white;
+ border-radius: 50%;
+ width: 25px;
+ height: 25px;
+ padding-top: 5px;
+ text-align: center;
+ font-weight: 400;
+ box-shadow: 0px 0px 5px 1px rgba(238, 248, 238, 0.75);
+}
+.Header-nav .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 400;
+}
+.Header-nav .navbar-nav .nav-link:hover {
+    color: black !important;
+
+}
+.Header-nav .navbar-nav .nav-link .fa-phone-alt{
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    color: #299AEF;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+   }
+
+   .Header-nav .navbar-nav .nav-link i:hover{
+       transform: scale(1.02);
+   }
+   @media (max-width: 768px) {
+    .Header-nav  .nav-link  {
+        font-size: 10px;
+    }
+    .Header-nav .marque-text {
+        max-width: 40px !important;
+    }
+    .Header-nav .navbar-nav .nav-link .fa-whatsapp {
+        width: 20px;
+        height: 20px;
+    }
+    .Header-nav .navbar-nav .nav-link .fa-phone-alt {
+        width: 20px;
+        height: 20px;
+    }
+   }
+   
+ 
+  @media (max-width: 280px)  {
+   .offer-text{
+        font-size: 10px !important;
+
+    }
+    .Header-nav .marque-text {
+        max-width: 90px !important;
+    }
+  }
+  @media (max-width: 360px)  {
+    .offer-text{
+         font-size: 10px !important;
+     }
+     .Header-nav .marque-text {
+         max-width: 100px !important;
+     }
+   }

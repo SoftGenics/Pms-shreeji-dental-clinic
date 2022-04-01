@@ -48,7 +48,7 @@ function App() {
       <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/General-denstistry" element={<General />} />
+      <Route path="/General-dentistry" element={<General />} />
       <Route path="/White_Fillings" element={<WhiteFillings />}/>
       <Route path="/Cleanings-and-exams" element={<TeethCleaning />}/>
       <Route path="/Root_Canal" element={<RootCanal />}/>

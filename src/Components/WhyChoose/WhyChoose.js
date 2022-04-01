@@ -14,9 +14,9 @@ function WhyChoose() {
     <Card.Body>
       <Card.Title>Compreshensive Services</Card.Title>
       <Card.Text>
-        We're your one-stop-shop for dentail care.
+        We're your one-stop-clinic for dental care.
         <br></br>Whatever you're experiencing, we have 
-        <br></br>the experience, technology, and 
+        <br></br>an experience, advance technology, and 
         <br></br>compassion to help reach your goals.
       </Card.Text>
     </Card.Body>
@@ -29,9 +29,9 @@ function WhyChoose() {
       <Card.Title>Care When You need it</Card.Title>
       <Card.Text>
         We offer-same-day care for when you're in 
-       <br></br> paain or facing an emergency. Early 
+       <br></br> pain or facing an emergency. Early 
        <br></br>morning and evening appointments are
-       <br></br>availble to fit your busy schedule.
+       <br></br>available to fit your busy schedule.
       </Card.Text>
     </Card.Body>
   </Card>
@@ -40,12 +40,12 @@ function WhyChoose() {
   <Card border="light" className='text-center'>
     <i className="far fa-check-circle"></i>
     <Card.Body>
-      <Card.Title >Your Confort, Our Priority</Card.Title>
+      <Card.Title >Your Comfort, Our Priority</Card.Title>
       <Card.Text>
-        Enjoy a relaxing office evironment,
-        <br></br>welcoming team and sooting amenities.
+        Enjoy a relaxing clinic evironment,
+        <br></br>welcoming team and soothing amenities.
         <br></br>Plus, we offer advanced sedation options
-        <br></br>to ensure your confort and help those
+        <br></br>to ensure your comfort and help those
         <br></br>with anxiety
       </Card.Text>
     </Card.Body>

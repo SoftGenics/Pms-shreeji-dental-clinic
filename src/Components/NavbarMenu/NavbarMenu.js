@@ -25,7 +25,7 @@ const NavbarMenu = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleClick}><i className={click ? 'fas fa-times' : 'fas fa-bars' } style={{color:'#299AEF',transform:'Scale(1.3)'}}/></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/" eventKey={2}><i className="fas fa-home"></i></Nav.Link>
+            <Nav.Link as={Link} to="/" eventKey={2} onClick={closeMobileMenu}><i className="fas fa-home"></i></Nav.Link>
             <NavDropdown title="GENERAL" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to='/Cleanings-and-exams' eventKey={2} onClick={closeMobileMenu}>Cleanings & Exams <i className="fas fa-arrow-circle-right"></i></NavDropdown.Item>
         <NavDropdown.Divider />

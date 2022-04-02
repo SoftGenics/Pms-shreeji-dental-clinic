@@ -17,7 +17,7 @@ const Footer = () => {
         <ul className="m-0 p-0">
           <li>- <Link to="/General-denstistry">General Dentistry</Link></li>
           <li>- <Link to="/Cosmetics-dentistry">Cosmetics Dentistry</Link></li>
-          <li>- <Link to="/Surgical">Surgica Dentistry</Link></li>
+          <li>- <Link to="/Surgical">Surgical Dentistry</Link></li>
           <li>- <Link to="/Kids-dentistry">Kids Dentistry</Link></li>
           <li>- <Link to="/Book-Online">Book Online</Link></li>
         </ul>

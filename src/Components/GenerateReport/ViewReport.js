@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import {Link, useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap'
 import './GenerateReport.css'
 function ViewReport(){
@@ -67,8 +67,6 @@ function ViewReport(){
                 <h4>NOT FOR MEDICO-LEGAL PURPOSE</h4>
               </Container>
         </Container>
-        
-        <Link to={`/print/${getdata.id}`}  style={{textAlign:'Right', float:'right',fontSize:'30px'}}><i className="fas fa-print"></i> print</Link>
       </Container>
          )
         }
